@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 0;
+}
+#contact {
+    background-color: lightblue;
+    border: 3px solid darkblue; /* 2px border, solid line, and color #333 */
+    padding: 20px; /* Optional: Add padding to separate the content from the border */
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+main {
+    padding: 20px;
+    margin-top: 80px; /* Adjust the value as needed */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label, input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+footer {
+    position: fixed;
+    bottom: 0; /* This will keep the footer at the bottom of the page */
+    left: 0;
+    right: 0;
+    background-color: darkblue;
+    color: #fff;
+    padding: 10px 0;
+}
+header a {
+    color: white; /* Replace with the desired color value (e.g., red) */
+    /* Additional styles such as text-decoration, font-size, etc. can be added as needed */
+  }
+  
